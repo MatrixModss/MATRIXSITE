@@ -14,7 +14,8 @@ export default function Index({ posts, globalData }) {
       <SEO title={globalData.name} description={globalData.blogTitle} />
       <Header name={globalData.name} />
       <main className="w-full">
-        <h1 className="mb-12 text-3xl text-center lg:text-5xl">
+        {/* Updated the title with Matrix-like style */}
+        <h1 className="mb-12 text-3xl text-center lg:text-5xl text-green-400 font-mono animate-pulse tracking-wide drop-shadow-lg">
           {globalData.blogTitle}
         </h1>
         <ul className="w-full">
